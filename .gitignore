@@ -12,7 +12,7 @@
 *.pch
 
 # Compiled Dynamic libraries
-*.so
+#*.so
 *.dylib
 *.dll
 
@@ -23,10 +23,14 @@
 # Compiled Static libraries
 *.lai
 *.la
-*.a
+# allowing for this example
+#*.a
 *.lib
 
 # Executables
 *.exe
 *.out
 *.app
+
+build*/
+**/build*/
